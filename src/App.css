@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+.card {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.form-control {
+  border-radius: 12px;
+  border: 2px solid #e9ecef;
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.3rem rgba(13, 110, 253, 0.25);
+  transform: scale(1.02);
+}
+
+.btn-primary {
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  font-size: 1.3rem;
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Ensure perfect centering */
+.container-fluid {
+  padding: 0;
+}
+
+.row.w-100 {
+  margin: 0;
+}
